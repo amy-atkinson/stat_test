@@ -1,0 +1,14 @@
+# Code owners for PSYC121 pages
+
+/PSYC121_test/       @tombeesley
+
+# Code owners for PSYC121 docs
+
+/docs/PSYC121_test/      @tombeesley
+
+# Code owners for PSYC234 pages
+
+/PSYC234_test/        @amy-atkinson
+
+# Code owners for PSYC234 docs
+/docs/PSYC234_test/      @amy-atkinson
