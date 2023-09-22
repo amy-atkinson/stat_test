@@ -1,0 +1,9 @@
+---
+title: 1. Review of correlation, simple regression and demonstration of multiple regression
+subtitle: Emma Mills
+order: 2
+---
+
+# Lectures
+
+This is a test. Please try edit something!

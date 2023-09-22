@@ -1,0 +1,86 @@
+project:
+  type: website
+  output-dir: docs
+  
+execute:
+  freeze: auto  # re-render only when source changes
+  
+website:
+  title: "Statistics for Psychologists"
+  favicon: "Images/favicon.png"
+  page-navigation: true
+  back-to-top-navigation: true
+    
+  repo-url: https://github.com/M1V0/Statistics_for_PSYC
+  repo-actions: [edit, issue]
+  
+  navbar:
+    #logo: "Images/icon.png"
+    left:
+      #- text: Home
+      #  file: index.qmd
+      - text: PSYC121
+        file: PSYC121/index.qmd
+      - text: PSYC122
+        file: PSYC122/index.qmd
+      - text: PSYC214
+        file: PSYC214/index.qmd
+      - text: PSYC234
+        file: PSYC234/index.qmd
+      - text: PSYC401      
+        file: PSYC401/index.qmd
+      - text: PSYC402
+        file: PSYC402/index.qmd
+
+  sidebar:
+  
+    collapse-level: 1
+    style: "floating"
+    
+    contents:
+      - section: "PSYC121"
+        contents: PSYC121/*
+        
+      - section: "PSYC122"
+        contents: PSYC122/*
+        
+      - section: "PSYC214"
+        contents: PSYC214/*
+        
+      - section: "PSYC234"
+        contents: PSYC234/*
+        
+      - section: "PSYC401"
+        contents: PSYC401/*
+        
+      - section: "PSYC402"
+        contents: PSYC402/* 
+        
+        
+  page-footer:
+    left: "Website developed by Matthew Ivory"
+    right:       
+      - icon: github
+        href: https://github.com/M1V0/Statistics_for_PSYC
+
+format:
+  html:
+    theme: 
+      - default
+      - custom.scss
+    #css: styles.css
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+    toc: true
+    include-in-header:
+      - text: |
+          <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+          <script language="JavaScript" type="text/javascript" src="/function.js"></script>
+      
+
+editor: source
+
+validate-yaml: false

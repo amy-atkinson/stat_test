@@ -1,0 +1,95 @@
+---
+title: "Statistics for Psychologists"
+page-layout: article
+anchor-sections: false
+image: "Images/icon.png"
+css: index.css
+filters: [remove_title.lua]
+---
+
+![](Images/LUPsychology.svg){fig-alt="University Logo" fig-align="center"}
+
+::: callout-warning
+This website is under construction. All the content from modules and lectures has been ported over, but I am not the expert in what content you want and where.
+:::
+
+# Welcome
+
+Welcome to Lancaster University's Department of Psychology **2022/2023** modules on Statistics for Psychologists. In the sidebar, you will find a complete list of all the statistics modules that are currently offered. This is your one-stop shop for all the lab materials you need for working with R and statistics.
+
+# Accessing the R Server
+
+{{< include /Includes/_login.qmd >}}
+
+# FAQs and Common Troubleshooting
+
+```{=html}
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        I can't access the server. It just loads and loads and then times out.
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">If your web browser is constantly loading and timing out and never showing you the login for the R server, then it’s likely the issue is with the web connection. You need to make sure that you are either connecting to Lancaster’s Eduroam: https://portal.lancaster.ac.uk/ask/connect-eduroam/ or if you are off-campus, that you are connected to the VPN: https://portal.lancaster.ac.uk/ask/vpn/
+<br />
+If you are still having problems, it may be that the server is down, and you can check your others on the course to see if they have the same problems. If others are experiencing issues, get in touch with your module coordinator to get this looked at.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        My code doesn't work and keeps giving me errors. How do I fix this?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Welcome to statistical programming. Try and carefully read the error codes to understand what the problem may be. You might be surprised to find out that the internet is an amazing resource for fixing your errors. Once you’ve checked it isn’t a typo, you can often copy-paste the error message into Google to see if others are having similar issues. Trusted resources include Stackoverflow, r-bloggers. The important thing is not to be afraid of errors, they’re trying to be helpful!
+</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Is the server down?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Hopefully not, but maybe. If it is, then the error is likely a "connection refused" and may even say something about the server maybe being down. If this is the case, either wait a little while to see if we’re in the middle of booting it back up, or get in touch with your module coordinator to pass the message on to the R team.
+</div>
+    </div>
+  </div>
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        Is there another way to use Rstudio without the R server?
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes! <br />
+      You can also install R and Rstudio onto your own computer which has its advantages and disadvantages to using the R server. You can install R and Rstudio directly from Posit (https://posit.co/download/rstudio-desktop/), who develop and maintain Rstudio. You will need to install both, R is the programming language and Rstudio is the interface between you and the computer that runs R. The advantage of having your own installation of R and Rstudio (just referred to as Rstudio from here on in) is that *you* control the settings completely. 
+
+<br />
+
+You can install new packages, set defaults, use specific versions of R and its libraries. In short, you have complete control over what you can do, which will lead to you becoming a better, more well-rounded data scientist (when we use R, we are data scientists as well as psychologists. You can wear many hats of expertise!). The disadvantage is that *you* are in control. If something goes wrong or doesn't install properly, it is up to you to resolve. As a department, we strongly recommend that you use the R server as your means of accessing Rstudio as we know that the server works, we have tested the teaching materials with the server and in labs we can help troubleshoot because we know that the version of R, the libraries, etc. are handled by us, we look after it so that you don't have to. A multitude of things can go wrong with a personal installation and you will need to fix this (which is part of being a well-rounded data scientist). If you ask for help with a local install, the first thing we will ask is "does it work on the R server?", if the answer is yes, then we can give some pointers but we cannot fix it for you (in my personal experience, I once spent 8+ hours of actively trying to fix a single issue with my Rstudio \[okay, so it was quite complex an issue, but the point remains\]). As you see, the advantage and disadvantage are intrinsically linked. 
+
+<br />
+
+From a teaching perspective, we cannot try and problem solve every person's individual and unique setup of Rstudio, there simply isn't enough time in a week. Yet the benefit of having your own version means you are totally unrestricted in what you can do with R, if you can imagine it, there is probably a set of libraries and functions that can help. If there isn't, you can make them! It is your choice for how to use Rstudio, but we recommend that you use the R server for the materials that we teach, but we provide this to complement and enhance the teaching experience. If you want to go beyond what is in the worksheets, then installing and using your own version of Rstudio is a very good first step</div>
+    </div>
+  </div>
+  
+      <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        Where can I learn more about R and Rstudio outside of the labs?
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Great question. We can recommend looking at these books, R for Data Science, Advanced R, etc., as well as websites like StackOverflow, r-bloggers. Quite often, googling terms like "r linear regression" or "r residuals for regression" will help you find someone who has a tutorial and code to look at. Don’t be afraid to explore and adapt other people’s examples to work for you.</div>
+    </div>
+  </div>
+  
+</div>
+```

@@ -1,0 +1,6 @@
+---
+title: 2. Multiple regression including categorical predictors
+subtitle: Emma Mills
+order: 3
+---
+Test. please try edit something

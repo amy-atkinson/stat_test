@@ -1,0 +1,7 @@
+---
+title: 3. Multiple regression models that include interactions (moderated variables)
+subtitle: Emma Mills
+order: 4
+---
+
+Test. please try edit something
